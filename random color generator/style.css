@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color-container{
+    border: 1px solid black;
+    margin: 4px;
+    width: 200px;
+    height: 125px;
+    border-radius: 8px;
+    background-color: antiquewhite;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
